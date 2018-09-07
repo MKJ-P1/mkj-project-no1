@@ -12,15 +12,15 @@
         </div>
         <ul id="messages"></ul>
         <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyADUpDGfLqCwZqVpwjnv7nO3EKG--x6YpY",
-            authDomain: "mkj-p1.firebaseapp.com",
-            databaseURL: "https://mkj-p1.firebaseio.com",
-            projectId: "mkj-p1",
-            storageBucket: "bucket.appspot.com"
-        };
-        firebase.initializeApp(config);
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyADUpDGfLqCwZqVpwjnv7nO3EKG--x6YpY",
+                authDomain: "mkj-p1.firebaseapp.com",
+                databaseURL: "https://mkj-p1.firebaseio.com",
+                projectId: "mkj-p1",
+                storageBucket: "bucket.appspot.com"
+            };
+            firebase.initializeApp(config);
 
             // データベースの参照を準備
             var messagesRef = firebase.database().ref().child('messages')
